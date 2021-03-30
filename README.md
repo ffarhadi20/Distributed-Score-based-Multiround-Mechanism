@@ -38,5 +38,5 @@ The outputs of function Calculate_t_p_three_levels.m, are among the inputs of th
         agreement_set:        This variable is 1 if agents reach an agreement, 0 otherwise
         selected_agreement:   This shows the index of the agreement that has been selected
         no_round:             Length of the negotiation
-        no_discussed:         Number of discussed agreements before reaching an agreement
+        no_discussed:         Number of discussed outcomes before reaching an agreement
         eff:                  Outcome efficiency
