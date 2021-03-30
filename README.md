@@ -27,7 +27,7 @@ The outputs of function Calculate_t_p_three_levels.m, are among the inputs of th
         V:        Value function, a matrix of size N \times N_ag. Each element v(i,j) is the value of the j-th outcome for the i-th participant. The first participant is the initiator. The value of an infeasible outcome is -inf and the values of feasible outcomes are always positive.
         L_min:    Minimum number of agreements the initiator is allowed to offer at each round
         L_max:    Maximum number of agreements the initiator is allowed to offer at each round
-        density:  Strictness coefficients of all agents, a vector of size N
+        density:  Strictness coefficients of all agents, a vector of size N, all elements are between 0 and 1
         beta:     Bargaining costs of all agents, a vector of size N
         theta:    Privacy sensitivities of all agents, a vector of size N
         t_matrix: Reward function, a 3-D matrix that is derived by running function Calculate_t_p_three_levels
